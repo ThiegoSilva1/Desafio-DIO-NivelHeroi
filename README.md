@@ -1,13 +1,7 @@
-# Desafio-DIO-NivelHeroi
-Desafio do Filipão
-🦸 Classificação de Herói por XP
-
+# 1️⃣ Desafio Classificador de nível de Herói #
 O presente Código, é parte do desafio de logica escrito em JavaScript, tem como principio determinar o Nível de um herói, com base a sua quantidade de experiência (XP); o código exibe o nome do herói e sua classificação. 
-##Instruções para entrega##
-
-# 1️⃣ Desafio Classificador de nível de Herói
-
-**O Que deve ser utilizado**
+## Instruções para entrega ##
+## O Que deve ser utilizado ##
 
 - Variáveis
 - Operadores
@@ -27,7 +21,38 @@ Se XP for entre 8.001 e 9.000 = Ascendente
 Se XP for entre 9.001 e 10.000= Imortal
 Se XP for maior ou igual a 10.001 = Radiante
 
-## Saída
+## Saída ##
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+#  Desafio 2 #
+
+
+
+ # 2️⃣ Calculadora de partidas Rankeadas
+ O presente Código ("desafio2.js"), é parte do desafio de logica, escrito em JavaScript, tem como base a determinação do nível do herói, tendo como tomando como base o calculo do cartel de cada, o numero de vitorias subtraído as derrotas é utilizado como base para   determinar o Nível de um herói, com base critérios pré-estabelecidos; o código exibe o nome do herói e sua classificação.
+ **O Que deve ser utilizado**
+
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
+- Funções
+
+## Objetivo:
+
+Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
+depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+
+Se vitórias for menor do que 10 = Ferro
+Se vitórias for entre 11 e 20 = Bronze
+Se vitórias for entre 21 e 50 = Prata
+Se vitórias for entre 51 e 80 = Ouro
+Se vitórias for entre 81 e 90 = Diamante
+Se vitórias for entre 91 e 100= Lendário
+Se vitórias for maior ou igual a 101 = Imortal
+
+## Saída
+
+Ao final deve se exibir uma mensagem:
+"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
